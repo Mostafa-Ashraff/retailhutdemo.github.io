@@ -671,10 +671,7 @@ a{
     color: var(--sec-color);
 }
 
-.navbar.active a,
-.navbar.active a:visited{
-    color: #fff;
-}
+
 /*
 .card-text::before{
     cursor: pointer;
@@ -1674,6 +1671,10 @@ footer div:last-child,  .information-flex> div{
     .navbar li {
         padding: 20px 20px;
         z-index: 21;
+    }
+
+    .navbar li a{
+        color: #DFE8EF;
     }
 
     .navbar li a:visited{
