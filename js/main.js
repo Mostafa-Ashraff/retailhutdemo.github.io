@@ -83,7 +83,7 @@ viewDetailsBtns.forEach(btn => btn.addEventListener('click', (()=>{
     //console.log(toViewDetails);
     localStorage.removeItem("details");
     localStorage.setItem("details", JSON.stringify(toViewDetails));
-    window.location.href="http://127.0.0.1:5500/product-details.html";
+    window.location.href="https://mostafa-ashraff.github.io/retailhutdemo.github.io/product-details.html";
 })))
 
 /*

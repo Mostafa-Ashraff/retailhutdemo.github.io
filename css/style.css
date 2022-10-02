@@ -670,6 +670,11 @@ button.slick-next{
 a{
     color: var(--sec-color);
 }
+
+.navbar.active a,
+.navbar.active a:visited{
+    color: #fff;
+}
 /*
 .card-text::before{
     cursor: pointer;
